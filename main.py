@@ -46,7 +46,7 @@ def takecommand():
         print(f"user said: {query}\n ")
     except Exception as e:
         print(e)
-        print("say that again please.....")
+        print("can u say that again please.....")
         return "none" # here none is a string and not python command
     return query
 
