@@ -87,7 +87,7 @@ if __name__=="__main__" :
             strTime=datetime.datetime.now().strftime("%H:%M:%S")
             #The time in 24-hour notation (%H:%M:%S)
             #The strftime() function is used to convert date and time objects to their string representation
-            speak(f"the time is {strTime}")
+            speak(f"So, the time is {strTime}")
         elif 'open vscode' in query:
             codePath="C:\\Users\\Admin\\PycharmProjects\\AIVoiceAssistant\\VSCodeSetup-x64-1.64.0.exe"
             os.startfile(codePath)
