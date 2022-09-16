@@ -59,7 +59,7 @@ def takecommand():
 #         server.close()
 
 if __name__=="__main__" :
-    speak("Hi Geetika")
+    speak("Hi Geetika Porwal")
     wishMe() #calling wishMe function
     while True:
         # takecommand()
